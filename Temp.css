@@ -1,0 +1,67 @@
+/* Base styles */
+body {
+    padding: 50px 100px;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    text-align: center;
+    background-color: aqua;
+    padding: 50px;
+}
+.input-div {
+    display: inline-block;
+}
+.inp {
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    text-align: center;
+}
+label {
+    font-size: 22px;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    body {
+        padding: 40px 80px;
+    }
+    .inp {
+        font-size: 28px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        padding: 30px 60px;
+    }
+    .inp {
+        font-size: 26px;
+        width: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px 40px;
+    }
+    .inp {
+        font-size: 24px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding: 10px 20px;
+    }
+    .inp {
+        font-size: 22px;
+        width: 120px;
+    }
+}
